@@ -1,4 +1,4 @@
-import PlantSlider from "@/components/PlantSlider";
+import PlantSlider from "../src/components/PlantSlider";
 import Image from "next/image";
 
 export default function Page() {
