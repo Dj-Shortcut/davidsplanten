@@ -1,4 +1,4 @@
-import { plants } from "@/data/plants";
+import { plants } from "../data/plants";
 
 export default function PlantSlider() {
   return (
