@@ -6,22 +6,23 @@ export default function Page() {
     <main className="min-h-screen bg-white text-gray-900">
 
       {/* HERO */}
-      <section className="flex flex-col items-center justify-center text-center px-6 py-20 bg-green-50">
+      <section className="flex flex-col items-center justify-center text-center px-6 py-12 md:py-16 bg-green-50">
 
         <Image
-          src="/branding/logofull.png"
-          alt="Davids Planten"
-          width={220}
-          height={80}
-          priority
+         src="/branding/logofull.png"
+         alt="Davids Planten"
+         width={220}
+         height={80}
+         priority
+         className="h-auto w-auto max-w-[220px]"
         />
 
-        <h1 className="text-4xl md:text-5xl font-bold mb-4 mt-6">
-          Bloemen & Succulents in Ninove
-        </h1>
+        <h1 className="mt-5 mb-4 text-4xl font-bold md:text-5xl">
+         Vetplanten & bloempotten in Ninove
+       </h1>
 
         <p className="text-lg text-gray-600 max-w-xl mb-6">
-          Lokaal gekweekt, eenvoudig te bestellen en af te halen wanneer het jou past.
+          Kwalitatieve vetplanten en bloempotten, eenvoudig te bestellen en af te halen.
         </p>
 
         <div className="flex gap-4">
